@@ -1,6 +1,6 @@
 # Cross-Site Request Forgery (CSRF)
 
-This repository is dedicated to exploring Cross-Site Request Forgery (CSRF) vulnerabilities, providing examples of common CSRF attacks and payloads, and offering strategies for prevention. This learning path is inspired by content from [web-security-academy.net](https://portswigger.net/web-security) and Rana Khalil (https://ranakhalil.com/), it aims to enhance your understanding of CSRF.
+This repository is dedicated to exploring Cross-Site Request Forgery (CSRF) vulnerabilities, providing examples of common CSRF attacks and payloads, and offering strategies for prevention. This learning path is inspired by content from [web-security-academy.net](https://portswigger.net/web-security) and [Rana Khalil](https://ranakhalil.com/), it aims to enhance your understanding of CSRF.
 
 ## Introduction to CSRF
 
